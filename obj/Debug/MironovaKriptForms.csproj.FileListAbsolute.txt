@@ -1,0 +1,15 @@
+C:\Users\Victor\source\repos\MironovaKriptForms\bin\Debug\MironovaKriptForms.exe.config
+C:\Users\Victor\source\repos\MironovaKriptForms\bin\Debug\MironovaKriptForms.exe
+C:\Users\Victor\source\repos\MironovaKriptForms\bin\Debug\MironovaKriptForms.pdb
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.csprojAssemblyReference.cache
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Main.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Properties.Resources.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.csproj.GenerateResource.cache
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.csproj.CoreCompileInputs.cache
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.exe
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.pdb
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Ex1.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Ex2.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Ex3.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Ex4.resources
+C:\Users\Victor\source\repos\MironovaKriptForms\obj\Debug\MironovaKriptForms.Ex5.resources
