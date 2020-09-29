@@ -27,7 +27,7 @@ namespace MironovaKriptForms
             int p = Convert.ToInt32(txtP.Text);
             int q = Convert.ToInt32(txtQ.Text);
             int n = p * q;
-            int H = 12; //вариант
+            int H = Convert.ToInt32(txtH.Text); 
             byte[] txt = Encoding.GetEncoding(1251).GetBytes(txtText.Text);
             foreach (byte temp in txt)
                 H = (H + temp) * (H + temp) % n;

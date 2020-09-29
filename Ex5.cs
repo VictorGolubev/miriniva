@@ -76,7 +76,7 @@ namespace MironovaKriptForms
                 MessageBox.Show("Введите сообщение, для которого расчитывается хэш.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            int H = 12;// по варианту
+            int H = Convert.ToInt32(txtH.Text);
             int p = Convert.ToInt32(txtP.Text);
             int q = Convert.ToInt32(txtQ.Text);
             int pq = p * q;

@@ -40,6 +40,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtH = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +58,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txtH);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtText);
             this.groupBox1.Controls.Add(this.label2);
@@ -91,7 +95,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(216, 22);
+            this.label2.Location = new System.Drawing.Point(141, 25);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(31, 24);
             this.label2.TabIndex = 3;
@@ -100,7 +104,7 @@
             // txtQ
             // 
             this.txtQ.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtQ.Location = new System.Drawing.Point(253, 19);
+            this.txtQ.Location = new System.Drawing.Point(178, 22);
             this.txtQ.Name = "txtQ";
             this.txtQ.Size = new System.Drawing.Size(83, 29);
             this.txtQ.TabIndex = 2;
@@ -109,7 +113,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(54, 22);
+            this.label3.Location = new System.Drawing.Point(7, 25);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(31, 24);
             this.label3.TabIndex = 1;
@@ -118,7 +122,7 @@
             // txtP
             // 
             this.txtP.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.txtP.Location = new System.Drawing.Point(91, 19);
+            this.txtP.Location = new System.Drawing.Point(44, 22);
             this.txtP.Name = "txtP";
             this.txtP.Size = new System.Drawing.Size(83, 29);
             this.txtP.TabIndex = 0;
@@ -164,6 +168,24 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Вывод";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(271, 25);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(44, 24);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "H0 :";
+            // 
+            // txtH
+            // 
+            this.txtH.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.txtH.Location = new System.Drawing.Point(321, 22);
+            this.txtH.Name = "txtH";
+            this.txtH.Size = new System.Drawing.Size(70, 29);
+            this.txtH.TabIndex = 6;
+            // 
             // Ex4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -197,5 +219,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtResult;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtH;
     }
 }
