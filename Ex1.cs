@@ -111,18 +111,18 @@ namespace MironovaKriptForms
 
             List<int> summaR0X0 = sum(longR0, X0);
 
-            for (int i = 0; i < summaR0X0.Count; i++)
-                if (i != 0 && i % 6 == 0)
-                    txt3.Text += " " + summaR0X0[i];
-                else
-                    txt3.Text += summaR0X0[i];
 
             List<int> posleSBox = convertSBox(summaR0X0);
-            //List<int> perestanovkaR = replaceAfterSbox(posleSBox);
+            List<int> perestanovkaR = replaceAfterSbox(posleSBox);
 
-            posleSBox.AddRange(l0);
+            for (int i = 0; i < posleSBox.Count; i++)
+                if (i != 0 && i % 6 == 0)
+                    txt3.Text += " " + posleSBox[i];
+                else
+                    txt3.Text += posleSBox[i];
+            perestanovkaR.AddRange(l0);
 
-            List<int> result = replaceFinish(posleSBox);
+            List<int> result = replaceFinish(perestanovkaR);
 
             for (int i = 0; i < result.Count; i++)
                 if (i != 0 && i % 8 == 0)
@@ -157,18 +157,18 @@ namespace MironovaKriptForms
 
         private List<int> longR(List<int> k)
         {
-            List<int> result = new List<int>();
-            for (int i = 0; i < 32; i += 4)
-            {
-                result.Add(1);
-                result.Add(k[i]);
-                result.Add(k[i + 1]);
-                result.Add(k[i + 2]);
-                result.Add(k[i + 3]);
-                result.Add(1);
-            }
+                List<int> result = new List<int>();
+                for (int i = 0; i < 32; i += 4)
+                {
+                    result.Add(k[i - 1 < 0 ? 31 : i - 1]);
+                    result.Add(k[i]);
+                    result.Add(k[i + 1]);
+                    result.Add(k[i + 2]);
+                    result.Add(k[i + 3]);
+                    result.Add(k[i + 4 > 31 ? 0 : i + 4]);
+                }
 
-            return result;
+                return result;
 
         }
 
